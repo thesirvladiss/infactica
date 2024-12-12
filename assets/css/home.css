@@ -371,6 +371,9 @@
 }
 
 .icon-service-advantage {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
     background-color: rgba(125, 125, 130, 1);
 }
 
@@ -397,12 +400,46 @@
     display: block;
 }
 
-.services-pagination {
-    position: initial;
-    display: flex;
-    margin-top: 30px;
-    gap: 10px;
-    margin-left: -5px;
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal.services-scrollbar {
+    position: relative;
+    margin-bottom: 33px;
+    bottom: -33px;
+    left: 0px;
+    width: 50%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.4) 100%);
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    height: auto;
+}
+.services-scrollbar .swiper-scrollbar-drag{
+    background-color: white;
+    height: 6px;
+}
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal.services-scrollbar,
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal.scraping-scrollbar,
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal.datasets-scrollbar {
+    position: relative;
+    margin-bottom: 33px;
+    bottom: -33px;
+    left: 0px;
+    width: 50%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.4) 100%);
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    height: auto;
+}
+.services-scrollbar .swiper-scrollbar-drag,
+.scraping-scrollbar .swiper-scrollbar-drag,
+.datasets-scrollbar .swiper-scrollbar-drag{
+    background-color: white;
+    height: 6px;
+}
+.swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal.datasets-scrollbar{
+    bottom: -20px;
 }
 
 .datasets-pagination {
@@ -465,7 +502,7 @@
 }
 
 .icon-service-advantage2 {
-    font-size: 40px;
+    font-size: 24px;
     background-color: rgba(125, 125, 130, 1);
 }
 
@@ -964,9 +1001,6 @@
     .tablet-wrap{
         display: block;
     }
-    .icon-service-advantage {
-        margin-top: -10px;
-    }
     .scraping-section::after {
         display: none;
     }
@@ -1149,9 +1183,9 @@
         width: 100%;
     }
 
-    .service-advantage-text {
+    /* .service-advantage-text {
         font-size: 13px;
-    }
+    } */
 
     .hero-clue {
         font-size: 14px;

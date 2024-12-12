@@ -1,14 +1,9 @@
 const swiper = new Swiper('.proxy-swiper', {
     slidesPerView: 4,
     spaceBetween: 32,
-    loop: true,
-    pagination: {
-        el: '.services-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.-convert-swiper-next',
-        prevEl: '.convert-swiper-prev',
+    scrollbar: {
+        el: '.services-scrollbar',
+        draggable: true,
     },
     breakpoints: {
         320: {
@@ -67,14 +62,9 @@ function initSwiper() {
     swiperScarping = new Swiper('.scraping-swiper', {
         slidesPerView: isSmallScreen ? 1 : 3,
         spaceBetween: 32,
-        // loop: isSmallScreen,
-        pagination: {
-            el: '.scraping-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.-convert-swiper-next',
-            prevEl: '.convert-swiper-prev',
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
         },
         breakpoints: {
             320: {
@@ -119,14 +109,9 @@ window.addEventListener('resize', () => {
 const swiperDatasets = new Swiper('.datasets-swiper', {
     slidesPerView: 4,
     spaceBetween: 32,
-    // loop:true,
-    pagination: {
-        el: '.datasets-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.-convert-swiper-next',
-        prevEl: '.convert-swiper-prev',
+    scrollbar: {
+        el: '.datasets-scrollbar',
+        draggable: true,
     },
     breakpoints: {
         320: {
