@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+.icon-arrow-down{
+    mask-image: url(arrowDown.svg);
+    -webkit-mask-image: url(arrowDown.svg);
+}
+.location-arrow-down{
+    mask-image: url(arrowDown.svg);
+    -webkit-mask-image: url(arrowDown.svg);
+}
+
+.icon-arrow-left{
+    mask-image: url(arrowLeft.svg);
+    -webkit-mask-image: url(arrowLeft.svg);
+}
+.icon-home{
+    mask-image: url(home.svg);
+    -webkit-mask-image: url(home.svg);
+}
+.icon-phone{
+    mask-image: url(phone.svg);
+    -webkit-mask-image: url(phone.svg);
+}
+.icon-service{
+    mask-image: url(service.svg);
+    -webkit-mask-image: url(service.svg);
+}
+.icon-service2{
+    mask-image: url(services2.svg);
+    -webkit-mask-image: url(services2.svg);
+}
+.icon-service3{
+    mask-image: url(service3.svg);
+    -webkit-mask-image: url(service3.svg);
+}
+.icon-service4{
+    mask-image: url(service4.svg);
+    -webkit-mask-image: url(service4.svg);
+}
+.icon-service5{
+    mask-image: url(service5.svg);
+    -webkit-mask-image: url(service5.svg);
+}
+.icon-service6{
+    mask-image: url(services6.svg);
+    -webkit-mask-image: url(services6.svg);
+}
+.icon-service7{
+    mask-image: url(service7.svg);
+    -webkit-mask-image: url(service7.svg);
+}
+.icon-service8{
+    mask-image: url(service8.svg);
+    -webkit-mask-image: url(service8.svg);
+}
+.icon-service9{
+    mask-image: url(service9.svg);
+    -webkit-mask-image: url(service9.svg);
+}
+.icon-service10{
+    mask-image: url(service10.svg);
+    -webkit-mask-image: url(service10.svg);
+}
+.icon-service11{
+    mask-image: url(services11.svg);
+    -webkit-mask-image: url(services11.svg);
+}
+.icon-service12{
+    mask-image: url(services12.svg);
+    -webkit-mask-image: url(services12.svg);
+}
+.icon-service13{
+    mask-image: url(services13.svg);
+    -webkit-mask-image: url(services13.svg);
+}
+
+.icon-service14{
+    mask-image: url(services14.svg);
+    -webkit-mask-image: url(services14.svg);
+}
+
+.icon-service15{
+    mask-image: url(service15.svg);
+    -webkit-mask-image: url(service15.svg);
+}
+.icon-service16{
+    mask-image: url(service16.svg);
+    -webkit-mask-image: url(service16.svg);
+}
+.icon-service17{
+    mask-image: url(service17.svg);
+    -webkit-mask-image: url(service17.svg);
+}
+.icon-service18{
+    mask-image: url(service18.svg);
+    -webkit-mask-image: url(service18.svg);
+}
+
+.icon-service19{
+    mask-image: url(service19.svg);
+    -webkit-mask-image: url(service19.svg);
+}
+.icon-service20{
+    mask-image: url(service20.svg);
+    -webkit-mask-image: url(service20.svg);
+}
+.icon-polygon{
+    mask-image: url(polygon.svg);
+    -webkit-mask-image: url(polygon.svg);
+}
+.icon-home-service{
+    mask-image: url(homeServices.svg);
+    -webkit-mask-image: url(homeServices.svg);
+}
+.icon-service-advantage{
+    mask-image: url(servers-advantage1.svg);
+    -webkit-mask-image: url(servers-advantage1.svg);
+}
+.icon-service-advantage2{
+    mask-image: url(server-advantage2.svg);
+    -webkit-mask-image: url(server-advantage2.svg);
+}
+.icon-arrow-gray{
+    mask-image: url(arrowLeft.svg);
+    -webkit-mask-image: url(arrowLeft.svg);
+}
+.icon-home-service2{
+    mask-image: url(icon-home-service2.svg);
+    -webkit-mask-image: url(icon-home-service2.svg);
+}
+.icon-home-service3{
+    mask-image: url(icon-home-service3.svg);
+    -webkit-mask-image: url(icon-home-service3.svg);
+}
+.icon-home-service4{
+    mask-image: url(icon-home-service4.svg);
+    -webkit-mask-image: url(icon-home-service4.svg);
+}
+.icon-scrapingIcon{
+    mask-image: url(scrapingIcon.svg);
+    -webkit-mask-image: url(scrapingIcon.svg);
+}
+.icon-scrapingIcon2{
+    mask-image: url(scrapingIcon2.svg);
+    -webkit-mask-image: url(scrapingIcon2.svg);
+}
+.icon-scrapingIcon3{
+    mask-image: url(icon-scrapingIcon3.svg);
+    -webkit-mask-image: url(icon-scrapingIcon3.svg);
+}
+.icon-sotial{
+    mask-image: url(sotial.svg);
+    -webkit-mask-image: url(sotial.svg);
+}
+.icon-sotial2{
+    mask-image: url(icon-sotial2.svg);
+    -webkit-mask-image: url(icon-sotial2.svg);
+}
+.icon-sotial3{
+    mask-image: url(icon-sotial3.svg);
+    -webkit-mask-image: url(icon-sotial3.svg);
+}
